@@ -8,8 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "bun run build && wrangler pages deploy dist",
-    "deploy:preview": "bun run build && wrangler pages deploy dist --branch preview"
+    "deploy": "bun run build && wrangler deploy",
+    "deploy:preview": "bun run build && wrangler deploy --env preview"
   },
   "dependencies": {
     "@fontsource-variable/manrope": "^5.2.8",
