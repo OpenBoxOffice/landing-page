@@ -8,11 +8,14 @@ function App() {
         {/* logo + quote from the GOAT sun tzu*/}
         <header className="mb-8 md:mb-14">
           <div className="mb-6 md:mb-12">
-            <img
-              src="/logo-fulltext.png"
-              alt="OpenBoxOffice"
-              className="h-8 md:h-10 w-auto opacity-90 hover:opacity-100 transition-opacity"
-            />
+            <a href="/" aria-label="OpenBoxOffice Home">
+              <img
+                src="/logo-fulltext.png"
+                alt="OpenBoxOffice - Free Open-Source Ticketing Platform"
+                className="h-8 md:h-10 w-auto opacity-90 hover:opacity-100 transition-opacity"
+              />
+            </a>
+            <h1 className="sr-only">OpenBoxOffice - Free Open-Source Ticketing for Non-Profits & Schools</h1>
           </div>
 
           <div className="relative">
@@ -73,7 +76,7 @@ function App() {
                 {[
                   {
                     name: "Be Different.",
-                    description: `At the core of OpenBoxOffice, there is the belief to be
+                    description: `At the core of OpenBoxOffice, there is the need to be
                     different from the competition. Ticketing is "good enough for everyone"
                     as is - but that isn't good enough for us. We're going to change the
                     industry for the better by redefining what "good enough" means.`
